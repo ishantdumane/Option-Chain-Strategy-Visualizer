@@ -1,0 +1,17 @@
+.centerContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* space between form fields and button */
+}
+
+.formContainer .MuiTextField-root {
+  width: 25ch;
+}
